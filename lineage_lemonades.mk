@@ -30,3 +30,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9R \
     SystemDevice=OnePlus9R \
     SystemName=OnePlus9R
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# QuickTap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Inherit RisingOS configurations.
+RISING_MAINTAINER := Lord Itachi
+
+# Add Official Stuff
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm Snapdragon 870" \
+    RisingMaintainer="Lord Itachi"
